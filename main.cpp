@@ -393,7 +393,8 @@ static const string mainnet_seeds[] = {
         "seed.zel.cash",
         "seed-uk.zelcash.com",
         "seed-asia.zelcash.com",
-        "seed-eu.zelcash.com"
+        "seed-eu.zelcash.com",
+        ""
         };
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
