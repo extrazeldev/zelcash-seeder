@@ -390,8 +390,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {
-        "seed.zel.cash", 
-        "dns.zel.cash", 
+        "seed.zel.cash",
         "seed-uk.zelcash.com",
         "seed-asia.zelcash.com",
         "seed-eu.zelcash.com"
