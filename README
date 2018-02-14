@@ -77,13 +77,13 @@ $ docker build -t zelcash/zelcash-seeder .
 Run the docker image with the following command:
 
 $ docker run -d --name zelcash-seeder \
-  -p 53:53/udp -p 53:53 btcz/zelcash-seeder \
+  -p 53:53/udp -p 53:53 zel/zelcash-seeder \
   -h dnsseed.example.com -n vps.example.com -m email.gmail.com
 
 Run the docker image with a restart policy:
 
 $ docker run -d --restart always --name zelcash-seeder \
-  -p 53:53/udp -p 53:53 btcz/zelcash-seeder \
+  -p 53:53/udp -p 53:53 zel/zelcash-seeder \
   -h dnsseed.example.com -n vps.example.com -m email.gmail.com
 
 Security Warnings
